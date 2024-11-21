@@ -6,7 +6,8 @@ export function ProductCard(props) {
         <img width = {200} src = {image} alt="" />
         <div>{category}</div>
         <h4>{title}</h4>
-        <div>{price}</div>
+        <div class= 'price'><b>${price}</b>  <button>Add Card</button> </div>
+        
     </div> 
     );
 }
